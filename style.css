@@ -41,15 +41,13 @@ body{
   border: 1px solid #aaa;
   padding: 0 2.85rem 0 1rem;
 }
-.input-box span{
+.input-box img{
   position: absolute;
   right: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
   cursor: pointer;
-  line-height: 53px;
-  color: #707070;
-}
-.input-box span:hover{
-  color: #4285F4!important;
 }
 .wrapper .pass-indicator{
   width: 100%;
